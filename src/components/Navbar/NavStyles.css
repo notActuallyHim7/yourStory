@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 3rem;
+  background-color: #563d7c;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%
+}
+.nav-links {
+  width: 20%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  list-style: none;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}

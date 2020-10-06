@@ -1,0 +1,112 @@
+.title {
+  font-size: 2rem;
+    /* width: 100%; */
+    line-height: 4rem;
+    text-align: inherit;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-left: 10%;
+    margin-bottom: 20px
+  }
+.cardCover {
+    width:90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 40rem;
+    flex: 0 1 auto;
+    justify-content:space-around
+}
+.card {
+  flex-basis: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    flex: 0 0 auto;
+}
+.innerCard {
+  width: -webkit-fill-available;
+    max-width: 17rem;
+    height: 20rem;
+    display: inline-block;
+    text-align: left;
+    scroll-snap-align: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(195, 195, 195, 0.55) 5px 5px 10px 0px;
+    border-radius: 8px;
+    margin: 0.5rem 0.5rem 0.8rem;
+    transition: all 0.1s ease-in-out 0s;
+}
+.cardImage {
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+.innerCardContainer {
+  margin: 10px 0px;
+    padding: 0px 10px;
+}
+.cardTime {
+  font-size: 0.7rem;
+  margin: 10px 0px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    margin: 0.4rem 0px 0px;
+}
+.cardTitle {
+  font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    min-height: 6rem;
+    overflow: hidden;
+}
+.cardFooter {
+  display: flex;
+  position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0.75rem 0.5rem;
+    white-space: nowrap;
+}
+.cardFooterText {
+  white-space: nowrap;
+  width:auto;
+  font-size: 0.75rem;
+    line-height: 1.5rem;
+    margin-top: 0.4rem;
+    color: rgb(242, 63, 45);
+    text-transform: uppercase;
+    background-color: rgb(255, 245, 244);
+    padding: 0.3rem 0.4rem;
+    border-radius: 3px;
+}
+.infiniteScroll {
+  width:100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 40rem;
+  flex: 0 1 auto;
+  justify-content:space-around
+}
+.loader {
+  width:100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 45px
+}
